@@ -90,7 +90,27 @@
         гостиниц в Седоне
       </p>
       <a href="#">поиск гостиницы в Седоне</a>
-      \*форма*\
+      <section class="modal modal-search">
+          <h2 class="visually-hidden">Поиск гостиницы в Седоне</h2>
+          <form class="hotel-form" action="https://echo.htmlacademy.ru" method="post">
+            <p class="hotel-item hotel-item-one">
+              <label for="hotel-date-in">Дата заезда:</label>
+              <input class="in" id="hotel-date-in" type="text" name="date-in" value="" placeholder="24 апреля 2017">
+            </p>
+            <p class="hotel-item hotel-item-two">
+              <label for="hotel-date-out">Дата выезда:</label>
+              <input class="out" id="hotel-date-out" type="text" name="date-out" value="" placeholder="4 июля 2017">
+            </p>
+            <p class="hotel-item hotel-item-three">
+              <label class="adult" for="hotel-number-adult">Взрослые:</label>
+              <input class="number" id="hotel-number-adult" type="text" name="adult" value="" placeholder="2">
+            </p>
+            <p class="hotel-item hotel-item-four">
+              <label class="children" for="hotel-number-children">Дети:</label>
+              <input class="number" id="hotel-number-children" type="text" name="children" value="" placeholder="0">
+            </p>
+            <button class="button button-search" type="submit">Найти</button>
+          </form>
       <img src="img/map.png" aria-label="карта" />
     </main>
     <footer>
